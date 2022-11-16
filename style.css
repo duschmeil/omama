@@ -13,14 +13,13 @@ header {
     text-align: center;
     align-items: center;
     display: flex;
+    justify-content: space-around;
 }
 
 header > img {
-    width: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 15vw;
     margin-top: 1vw;
-    margin-bottom: 0.8vw;
+    padding-bottom: 0.8vw;
 }
 header > a {
     color: white;
@@ -31,4 +30,47 @@ header > a {
     text-align: center;
     font-size: 2.4vw;
     margin: auto;
+}
+
+header > a:hover {
+    transition: .5s ease-out;
+    transform: scale(1.1);
+}
+
+#cardapio {
+    background-color: #FFECC7;
+    text-align: center;
+    margin-top: -100px;
+}
+
+#cardapio > h1 {
+    color: #333333;
+    font-size: 8vw;
+}
+
+#cardapio > img {
+    width: 50vw;
+    height: 40vw;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 2vw;
+    margin-top: -2vw;
+    border-width: 10px;
+    overflow: hidden;
+    outline-color: #2e375f;
+    outline-width: 10px;
+}
+
+#cardapio > img:hover {
+    transform: scale(1.05);
+    transition: transform .5s ease-in-out;
+}
+
+#cardapio > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8vw;
+    padding: 10px;
+    background-color: #EF574F;
+    border-radius: 30px;
 }
